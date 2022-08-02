@@ -1,0 +1,163 @@
+.Offer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 710px;
+    background-color: #101535!important;
+    z-index: 1;
+    position: relative;
+    cursor: auto;
+}
+.Offer__div{
+    width: 55%;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Offer__block{
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Offer__blockchain{
+    width: 30%;
+    height: 400px;
+    background-color: rgba(60,60,200,0.2);
+    border: #4328B7 solid 2px;
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    transform: rotateY(90deg);
+    opacity: 0;
+    transition: 1s;
+}
+.Offer__blockchain-activ{
+    width: 30%;
+    min-height: 400px;
+    background-color: rgba(60,60,200,0.2);
+    border: #4328B7 solid 2px;
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    transform: rotateY(0deg);
+    opacity: 1;
+    transition: 1s;
+}
+.Offer__blockchain h3{
+    color: white;
+    font-family: 'Titillium Web',Helvetica,Arial,Lucida,sans-serif;    
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.Offer__blockchain span{
+    margin-top: 1px;
+    font-size: 15px;
+}
+.Offer__blockchain div{
+    margin-top: 5px;
+}
+.Offer__blockchain-activ h3{
+    color: white;
+    font-family: 'Titillium Web',Helvetica,Arial,Lucida,sans-serif;    
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.Offer__blockchain-activ span{
+    margin-top: 1px;
+    font-size: 15px;
+}
+.Offer__blockchain-activ div{
+    margin-top: 5px;
+}
+.Offer__btn {
+    width: 36%;
+    height: 50px;
+    color: #ffffff!important;
+    background-color: #1b1f50;  
+    margin-top: 50px;
+    border-radius: 0px;
+    text-transform: uppercase!important;
+    border: #1b1f50 solid 10px!important;
+    font-family: 'Titillium Web' , 'sans-serif';
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.Offer__btn-activ{
+    width: 36.5%;
+    height: 50px;
+    color: #ffffff!important;
+    background-color: #1b1f50;  
+    margin-top: 50px;
+    border-radius: 0px;
+    text-transform: uppercase!important;
+    border: #1b1f50 solid 10px!important;
+    font-family: 'Titillium Web' , 'sans-serif';
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.Offer__btn i {
+    opacity: 0;
+    transition: 0.1s;
+    margin-left: 0px;
+}
+.Offer__btn-activ i {
+    opacity: 1;
+    transition: 0.1s;
+    margin-left: 8px;
+}
+@media (max-width:1450px){
+    .Offer__block{
+        height: 500px;
+    }
+    .Offer__div{
+        width: 70%;
+    }
+    .Offer__blockchain-activ{
+        height: 450px;
+    }
+}
+@media (max-width:1150px){
+    .Offer__div{
+        width: 80%;
+    }
+}
+@media(max-width:950px){
+    .Offer{
+        height: 1600px;
+    }
+    .Offer__block{
+        flex-direction: column;
+        align-items: center;
+        min-height: 1600px;
+    }
+    .Offer__div{
+        width: 100%;
+        min-height: 1600px;
+    }
+    .Offer{
+        min-height: 1800px;
+    }
+    .Offer__blockchain-activ{
+        width: 90%;
+        margin-top: 20px;
+        min-height: 200px;
+    }
+    .Offer__btn{
+        width: 60%;
+        height: 100px;
+    }
+    .Offer__btn-activ{
+        width: 61%;
+        height: 100px;
+    }
+
+}

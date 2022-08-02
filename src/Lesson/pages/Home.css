@@ -1,0 +1,45 @@
+.Home{
+    width: 60%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+.Cofee{
+    background-color: #f6e1c5;
+    height: 350px;
+    width: 25%;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.Cofee div{
+    font-size: 25px;
+}
+.Cofee span{
+    text-align: center;
+    width: 80%;
+    height: 100px;
+    margin-top: 50px;
+}
+.Cofee button{
+    height: 50px;
+    width: 25%;
+    background-color: #eab46f;
+    border-radius: 10%;
+    border: none;   
+    margin-top: 300px;
+    cursor: pointer;
+    position: absolute;
+}
+.Cofee button:hover{
+    background-color: #eec58f;
+}
+.Home img{
+    width: 60%;
+    height: 500px;
+    background-size: cover;
+    margin-left: 30%;
+}

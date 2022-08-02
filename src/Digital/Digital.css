@@ -1,0 +1,93 @@
+.Digital{
+    width: 100%;
+    min-height: 800px;
+    background-color: #101535 !important;
+    position: relative;
+    z-index: 1;
+    cursor: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Digital__div{
+    width: 60%;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+}
+.Digital__txt{
+    width: 50%;
+    min-height: 500px;
+    text-align: start;
+    flex-direction: column;
+    font-family: 'Titillium Web', 'sans-serif';
+}
+.Digital__txt h2{
+    color: white;
+    font-size: 35px;
+    width: 90%;
+    margin-top: 15px;
+    letter-spacing: 2px;
+}
+.Digital__line{
+    background-color: #7bdcb5;
+    min-height: 0.5px;
+    width: 80px;
+    margin-top: 45px;
+}
+.Digital__span{
+    font-size: 17.5px;
+    margin-top: 50px;
+    color: white;
+}
+.Digital__img{
+    width: 50%;
+    min-height: 700px;
+    display: flex;
+    position: relative;
+    align-self: flex-start;
+    background-size: cover;
+}
+.Digital__png{
+    width: 100%;
+    min-height: 700px;
+    position: absolute;
+    transition: 1s;
+    opacity: 0;
+    margin-top: 100px;
+}
+.Digital__png-activ{
+    width: 100%;
+    min-height: 700px;
+    position: absolute;
+    transition: 1s;
+    opacity: 1;
+}
+@media (max-width:1500px){
+    .Digital__div{
+        width: 90%;
+    }
+}
+@media (max-width:980px){
+    .Digital__div{
+        flex-direction: column;
+        min-height: 1200px;
+        align-items: center;
+        justify-content: center;
+    }
+    .Digital{
+        min-height: 1200px;
+    }
+    .Digital__img{
+        width: 80%;
+        min-height: 500px;
+        align-self: center;
+    }
+    .Digital__png,.Digital__png-activ{
+        min-height: 600px;
+    }
+    .Digital__txt{
+        width: 100%;
+        min-height: 400px;
+    }
+}

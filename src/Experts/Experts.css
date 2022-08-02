@@ -1,0 +1,259 @@
+.Experts {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    height: 1200px;
+    background-color: #101535 !important;
+    justify-content: center;
+    align-items: center;
+    cursor: auto;
+}
+
+.Experts__div {
+    width: 60%;
+    height: 1000px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    font-family: 'Titillium Web', 'sans-serif';
+}
+
+.Experts__txt {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.Experts__txt h2 {
+    font-size: 32px;
+    letter-spacing: 2px;
+}
+
+.Experts__line {
+    background-color: #7bdcb5;
+    height: 0.5px;
+    width: 80px;
+    margin-top: 45px;
+}
+
+.Experts__span {
+    margin-top: 20px;
+    width: 70%;
+    font-size: 16px;
+    align-items: center;
+}
+
+.Experts__profile1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+}
+
+.Experts__img1 {
+    width: 25%;
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    padding-top: 150px;
+    text-align: start;
+    padding-left: 20px;
+    flex-direction: column;
+    background-image: linear-gradient(180deg, rgba(43, 41, 150, 0.19) 0%, rgba(43, 41, 150, 0.78) 91%), url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/06/crypto_image_08.jpg);
+    opacity: 1;
+    transform: rotateY(0deg);
+    transition: 1.5s;
+}
+.Experts__img1-activ {
+    width: 25%;
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    padding-top: 150px;
+    text-align: start;
+    padding-left: 20px;
+    flex-direction: column;
+    background-image: linear-gradient(180deg, rgba(43, 41, 150, 0.19) 0%, rgba(43, 41, 150, 0.78) 91%), url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/06/crypto_image_08.jpg);
+    opacity: 0;
+    transform: rotateY(60deg);
+    transition: 1.5s;
+}
+
+.Experts__img2 {
+    width: 25%;
+    height: 350px;
+    background-size: cover;
+    padding-top: 150px;
+    text-align: start;
+    padding-left: 20px;
+    background-image: linear-gradient(180deg, rgba(43, 41, 150, 0.19) 0%, rgba(43, 41, 150, 0.78) 91%), url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/06/crypto_image_07-1.jpg);
+    margin-right: 25%;
+    opacity: 1;
+    transition: 1.5s;
+    transform: rotateY(0deg);
+}
+
+.Experts__img2-activ {
+    width: 25%;
+    height: 350px;
+    background-size: cover;
+    padding-top: 150px;
+    text-align: start;
+    padding-left: 20px;
+    background-image: linear-gradient(180deg, rgba(43, 41, 150, 0.19) 0%, rgba(43, 41, 150, 0.78) 91%), url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/06/crypto_image_07-1.jpg);
+    margin-right: 25%;
+    opacity: 0;
+    transition: 1.5s;
+    transform: rotateY(60deg);
+}
+.Experts__img3 {
+    width: 25%;
+    height: 350px;
+    background-size: cover;
+    padding-top: 150px;
+    text-align: start;
+    padding-left: 20px;
+    margin-left: 25%;
+    transform: rotateY(0deg);
+    opacity: 1;
+    transition: 1.5s;
+    background-image: linear-gradient(180deg, rgba(43, 41, 150, 0.19) 0%, rgba(43, 41, 150, 0.78) 91%), url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/06/crypto_image_03-1.jpg);
+}
+.Experts__img3-activ {
+    width: 25%;
+    height: 350px;
+    background-size: cover;
+    padding-top: 150px;
+    text-align: start;
+    padding-left: 20px;
+    margin-left: 25%;
+    transform: rotateY(60deg);
+    opacity: 0;
+    transition: 1.5s;
+    background-image: linear-gradient(180deg, rgba(43, 41, 150, 0.19) 0%, rgba(43, 41, 150, 0.78) 91%), url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/06/crypto_image_03-1.jpg);
+}
+.Experts__img4 {
+    width: 25%;
+    height: 350px;
+    background-size: cover;
+    padding-top: 150px;
+    text-align: start;
+    padding-left: 20px;
+    opacity: 1;
+    transform: rotateY(0deg);
+    transition: 1.5s;
+    background-image: linear-gradient(180deg, rgba(43, 41, 150, 0.19) 0%, rgba(43, 41, 150, 0.78) 91%), url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/02/portrait-05.jpg);
+}
+.Experts__img4-activ {
+    width: 25%;
+    height: 350px;
+    background-size: cover;
+    padding-top: 150px;
+    text-align: start;
+    padding-left: 20px;
+    opacity: 0;
+    transform: rotateY(60deg);
+    transition: 1.5s;
+    background-image: linear-gradient(180deg, rgba(43, 41, 150, 0.19) 0%, rgba(43, 41, 150, 0.78) 91%), url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/02/portrait-05.jpg);
+}
+.Experts__img1 h3,
+.Experts__img2 h3,
+.Experts__img3 h3,
+.Experts__img4 h3 {
+    font-family: 'Cabin', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+.profile__txt {
+    width: 100%;
+    height: 150px;
+    text-align: start;
+}
+
+.profile__span {
+    width: 100%;
+    margin-top: 10px;
+    font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    color: #abb8c3;
+}
+
+.profile__icon {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #abb8c3;
+}
+
+.profile__icon i:hover {
+    color: rgb(56, 191, 245);
+    cursor: pointer;
+}
+@media (max-width:1540px){
+    .Experts__div{
+        width: 70%;
+    }
+}
+@media (max-width:1200px){
+    .Experts__div{
+        width: 90%;
+    }
+}
+@media  (max-width:980px){
+    .Experts__img1,.Experts__img2,.Experts__img3,.Experts__img4{
+        width: 50%;
+    }
+    .Experts__img2{
+        margin-right: 0;
+    }
+    .Experts__img3{
+        margin-left: 0;
+    }
+    .Experts__div{
+        width: 70%;
+    }
+}
+@media (max-width:600px){
+    .Experts__div{
+        width: 90%;
+    }
+}
+@media (max-width:450px){
+    .Experts__profile1{
+        flex-direction: column;
+        height: 900px;
+        align-items: center;
+        justify-content: center;
+    }
+    .Experts__div{
+        height: 1800px;
+        
+    }
+    .Experts{
+        height: 2000px;
+    }
+    .Experts__img1,.Experts__img2,.Experts__img3,.Experts__img4{
+        width: 90%;
+    }
+    .Experts__img2{
+        margin-top: 40px;
+    }
+    .Experts__img4{
+        margin-top: 40px;
+    }
+    .Experts__txt{
+        height: 250px;
+    }
+    .Experts__span{
+        width: 100%;
+    }
+}

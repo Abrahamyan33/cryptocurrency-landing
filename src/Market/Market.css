@@ -1,0 +1,108 @@
+.Market{
+    width: 100%;
+    min-height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #101535!important;
+    cursor: auto;
+}
+.Market__div{
+    width: 60%;
+    min-height: 800px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    font-family: 'Titillium Web','sans-serif';
+}
+.Market__div h2{
+    font-size: 35px;
+    color: white;
+    letter-spacing: 3px;
+}
+.Market__line{
+    background-color: #7bdcb5;
+    min-height: 0.5px;
+    width: 80px;
+    margin-top: 45px;
+}
+.Market__txt{
+    width: 60%;
+    color: white;
+    margin-top: 20px;
+    font-size: 16px ;
+}
+.Market__btn{
+    width: 18%;
+    min-height: 50px;
+    border: #1b1f50 solid 10px!important;
+    color: #ffffff!important;
+    text-transform: uppercase!important;
+    font-family: 'Titillium Web' , 'sans-serif';
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    background-color: #1b1f50;  
+    transition: 0.1s;
+    margin-top: 40px;
+    position: relative;
+}
+.Market__btn-activ{
+    width: 18.5%;
+    min-height: 50px;
+    border: #1b1f50 solid 10px!important;
+    color: #ffffff!important;
+    text-transform: uppercase!important;
+    font-family: 'Titillium Web' , 'sans-serif';
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    background-color: #1b1f50;  
+    transition: 0.1s;
+    margin-top: 40px;
+    position: relative;
+}
+.Market__btn i{
+    opacity: 0;
+    transition: 0.1s;
+}
+.Market__btn-activ i{
+    opacity: 1;
+    transition: 0.1s;
+    margin-left: 8px;
+}
+.Market__img{
+    width: 70%;
+    min-height: 300px;
+    position: relative;
+    display: flex;
+    align-self: center;
+    margin-top: 50px;
+    background-color: #101535;
+    box-shadow: 0px 2px 60px 0px rgba(60,60,200,0.4);
+}
+.Market__img img{
+    width: 100%;
+    min-height: 200px;
+} 
+@media (max-width: 1550px){
+    .Market__btn{
+        width: 25%;
+    }
+    .Market__btn-activ{
+        width: 25.5%;
+    }
+}
+@media (max-width: 1110px){
+    .Market__btn{
+        width: 30%;
+    }
+    .Market__btn-activ{
+        width: 35.5%;
+    }
+}
+@media (max-width:980px){
+    .Market__div{
+        width: 90%;
+    }
+}

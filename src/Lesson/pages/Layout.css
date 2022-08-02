@@ -1,0 +1,31 @@
+.Layout{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(47, 23, 15, 0.9);
+    margin-top: 100px;
+}
+.Layout__links{
+    width: 50%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Layout__links span{
+    font-size: 20px;
+    text-decoration-line: none; 
+    color: red;   
+}
+.Layout__links span:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.Outlet{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

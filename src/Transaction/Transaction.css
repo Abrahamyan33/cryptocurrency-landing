@@ -1,0 +1,191 @@
+.Transaction{
+    min-width: 100%;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    background-color: #101535 !important;
+    z-index: 1;
+    position: relative;
+    align-items: center;
+    background-size: cover;
+    cursor: auto;
+}
+.Transaction img{
+    min-width: 100%;
+    min-height: 240px;  
+    position: absolute;
+     
+}
+.Transaction__div{
+    width: 50%;
+    min-height: 500px;
+    background-color: #191d52;
+    position: relative;
+    border: solid 2px #4328b7;
+    box-shadow: 0px 2px 60px 0px rgb(60 60 200 / 40%);
+    padding: 50px;
+}
+.Transaction__sub{
+    width: 100%;
+    min-height: 50px;
+    text-align: start;
+    color: #ffffff;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 12px;
+    font-weight: 1000;
+    letter-spacing: 1px;
+}
+.Transaction__line{
+    background-color: #7bdcb5;
+    height: 0.5px;
+    width: 50px;
+    margin-top: 25px;
+}
+.Transaction__txt{
+    width: 50%;
+    min-height: 200px;
+    text-align: start;
+    color: white;
+    font-family: 'Titillium Web', 'sans-serif';
+}
+.Transaction__reg{
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Transaction__txt h2{
+    margin-top: 10px;
+    font-size: 33.5px;
+    letter-spacing: 1.5px;
+}
+.Transaction__span{
+    width: 100%;
+    margin-top: 50px;
+    font-size: 17px;
+}
+.Transaction__inps{
+    width: 50%;
+    flex-direction: column;
+    min-height: 200px;
+    text-align: end;
+}
+.Transaction__inps input::placeholder{
+    color: white;
+}
+.Transaction__inp2{
+    margin-top: 20px;
+    width: 90%;
+    min-height: 50px;
+    padding: 10px;
+    background-color: rgba(67,40,183,0.38);
+    border: none;
+    outline: none;    
+    color: #ababab;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 17px;
+    position: relative;
+}
+.Transaction__inp1{
+    width: 90%;
+    min-height: 50px;
+    padding: 10px;
+    background-color: rgba(67,40,183,0.38);
+    border: none;
+    outline: none;    
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 17px;
+    position: relative;
+}
+.Transaction__inp1:focus  {
+    background-color: rgba(45, 0, 243, 0.39);
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 1000;
+}
+.Transaction__inp2:focus{
+    background-color: rgba(45, 0, 243, 0.39);
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 1000;
+}
+.Transaction__btn{
+    width: 90%;
+    min-height: 50px;
+    align-self: flex-end;
+    margin-top: 20px;
+    background-color: rgba(45, 0, 243, 0.719);
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    color: white;
+}
+.Transaction__btn i{
+    opacity: 0;
+    transition: 0.1s;
+}
+.Transaction__btn:hover i{
+    opacity: 1;
+    margin-left: 5px;
+}
+.Transaction__num{
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Transaction__num1{
+    width: 22%;
+    min-height: 50px;
+    flex-direction: column;
+}
+.num__span{
+    transition: 0.000001ms;
+    width: 100%;
+    font-size: 40px;
+}
+@media (max-width: 980px) {
+    .Transaction{
+        min-height: 800px;
+    }
+    .Transaction__div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Transaction__sub{
+        /* justify-content: center; */
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Transaction__reg{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Transaction__inps{
+        width: 100%;
+        margin: auto;
+    }
+    .Transaction__inp1{
+        width: 100%;
+    }
+    .Transaction__inp2{
+        width: 100%;
+    }
+    .Transaction__txt{
+        width: 100%;
+    }
+    .Transaction__btn{
+        width: 100%;
+        align-self: center;
+    }
+}
+@media (max-width:600px){
+    .Transaction__div{
+        width: 90% ;
+    }
+}

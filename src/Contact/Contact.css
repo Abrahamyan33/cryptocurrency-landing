@@ -1,0 +1,164 @@
+.Contact {
+    width: 100%;
+    min-height: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    background-image: linear-gradient(180deg, #12163D 0%, #2b2996 100%) !important;
+    color: white;
+    font-family: 'Titillium Web','sans-serif';
+}
+.Contact__png {
+    background-image: url(./1.svg);
+    top: 0;
+    transform: scale(1, 1);
+    height: 350px;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+.Contact h2{
+    margin-top: 80px;
+    font-size: 38px;
+    letter-spacing: 3px;
+}
+.Contact__line{
+    background-color: #7bdcb5;
+    height: 0.3px;
+    width: 90px;
+    margin-top: 60px;
+}
+.Contact__span{
+    width: 45%;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+.Contact__div{
+    min-height: 460px;
+    width: 60%;
+    display: flex;
+    margin-top: 50px;
+    background-color: white;
+    position: relative;
+    padding: 60px;
+    flex-direction: column;
+    align-items: center;
+    cursor: auto;
+    opacity: 1;
+    transition: 1.5s;
+}
+.Contact__div-activ{
+    min-height: 460px;
+    width: 60%;
+    display: flex;
+    margin-top: 50px;
+    background-color: white;
+    position: relative;
+    padding: 60px;
+    flex-direction: column;
+    align-items: center;
+    cursor: auto;
+    opacity: 0;
+    transition: 1.5s;
+}
+.Contact__name{
+    width: 100%;
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Titillium Web','sans-serif';
+}
+.Contact__name input {
+    padding: 20px;
+    width: 48%;
+    height: 60px;
+    color: #333;
+    border: none;
+    font-size: 12px;
+    background-color: #ebe9eb;
+    text-transform: uppercase;
+    font-weight: 600;
+    outline: none;
+}
+.Contact__name input::placeholder{
+    letter-spacing: 2px;
+}
+.Contact__message{
+    width: 100%;
+    min-height:200px;
+    display: flex;
+    margin-top: 40px;
+}
+.Contact__message textarea {
+    min-width: 100%;
+    min-height: 200px;
+    background-color: #ebe9eb;
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+    padding: 20px;
+    font-family: 'Titillium Web','sans-serif';
+    color: #333;
+    border: none;
+    letter-spacing: 2px;
+}
+.Contact__btn{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.Contact__btn button{
+    min-width: 90px;
+    height: 60px;
+    margin-top: 20px;
+    background-color: #4328b7;
+    color: white;
+    font-size: 14px;
+    border: none;
+    text-transform: uppercase!important;
+    font-weight: 700!important;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.Contact__btn i{
+    opacity: 0;
+    transition: 0.2s;
+    position: absolute;
+}
+.Contact__btn button:hover i{
+    opacity: 1;
+    transition: 0.2s;
+    margin-left: 8px;
+    position: relative;
+}
+.Contact__btn button:hover{
+    width: 100px;
+    transition: 0.2s;
+}
+@media(max-width:1150px){
+    .Contact__div{
+        width: 70%;
+    }
+    .Contact{
+        height: 1300px;
+    }
+}
+@media(max-width:770px){
+    .Contact__name{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Contact__name input{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .Contact{
+        height: 1400px;
+    }
+}

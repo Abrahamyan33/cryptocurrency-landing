@@ -1,0 +1,154 @@
+.Blockchain{
+    width: 100%;
+    min-height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #101535 !important;
+    z-index: 1;
+    position: relative;
+    cursor: auto;
+}
+.Blockchain__div{
+    width: 80%;
+    min-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+.Blockchain__txt{
+    width: 100%;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+    font-family: 'Titillium Web' , 'sans-serif';  
+}
+.Blockchain__txt h2{
+    font-size: 38px;
+    color: white;
+    letter-spacing: 3px;  
+}
+.Blockchain__line{
+    background-color: #7bdcb5;
+    min-height: 0.5px;
+    width: 80px;
+    margin-top: 50px;
+}
+.Blockchain__txt span{
+    color: white;
+    font-size: 18px;
+    width: 55%;
+    margin-top: 40px;
+}
+.Blockchain__btn{
+    width: 19%;
+    min-height: 50px;
+    border: solid #1b1f50 10px!important;
+    text-transform: uppercase!important;
+    background-color: #1b1f50;
+    margin-top: 40px;
+    font-size: 15px;
+    color: #ffff!important;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.Blockchain__btn-activ{
+    width: 19.5%;
+    min-height: 50px;
+    border: solid #1b1f50 10px!important;
+    text-transform: uppercase!important;
+    background-color: #1b1f50;
+    margin-top: 40px;
+    font-size: 15px;
+    color: #ffff!important;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.Blockchain__btn i{
+    opacity: 0;
+    transition: 0.1s;
+}
+.Blockchain__btn-activ{
+    opacity: 1;
+    transition: 0.1s;
+    margin-left: 10px;
+}
+.Blockchain__img{
+    width: 100%;
+    min-height: 600px;
+    position: relative;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.Blockchain__png{
+    position: absolute;
+    width: 100%;
+    min-height: 600px;
+    margin-top: 100px;
+    opacity: 0;
+    transition: 1s;
+}
+.Blockchain__png-activ{
+    position: absolute;
+    width: 100%;
+    min-height: 600px;
+    margin-top: 0px;
+    opacity: 1;
+    transition: 1s;
+}
+@media (max-width:1650px) {
+    .Blockchain__btn{
+        width: 25%;
+    }
+    .Blockchain__btn-activ{
+        width: 25.5%;
+    }
+}
+@media (max-width:1250px){
+    .Blockchain__btn{
+        width: 33%;
+    }
+    .Blockchain__btn-activ{
+        width: 33.5%;
+    }
+}
+@media(max-width:980px){
+    .Blockchain__div{
+        width: 100%;
+    }
+    .Blockchain__img{
+        width: 80%;
+    }
+}
+@media (max-width:700px){
+    .Blockchain__btn{
+        width: 40%;
+    }
+    .Blockchain__btn-activ{
+        width: 40.5%;
+    }
+    .Blockchain__img{
+        width: 60%;
+    }
+    .Blockchain__png-activ{
+        min-height: 500px;
+    }
+}
+@media (max-width:550px){
+    .Blockchain{
+        min-height: 1200px;
+    }
+    .Blockchain__img{
+        width: 100%;
+        margin-top: 50px;
+        min-height: 200px;
+    }
+    .Blockchain__png-activ{
+        min-height: 300px;
+    }
+
+}

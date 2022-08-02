@@ -1,0 +1,202 @@
+.Crypto {
+    width: 100%;
+    height: 1300px;
+    background-color: #101535 !important;
+    position: relative;
+    cursor: auto;
+}
+
+.Crypto__img {
+    width: 100%;
+    height: 1200px;
+    position: fixed;
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/06/crypto-bg-02.png);
+    background-size: cover;
+    transition: 1s;
+    cursor: auto;
+}
+.Crypto__img-active {
+    width: 100%;
+    height: 1200px;
+    position: fixed;
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/06/crypto-bg-02.png);
+    background-size: cover;
+    transition: 1s;
+    cursor: auto;
+}
+
+.Crypto__consul {
+    width: 100%;
+    height: 1200px;
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/06/Crypto_Illustration_07-1.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    opacity: 1;
+    transition: 1.5s;
+    background-size: cover;
+}
+
+.Crypto__consul-activ {
+    width: 100%;
+    height: 1200px;
+    background-image: url(https://www.elegantthemes.com/layouts/wp-content/uploads/2018/06/Crypto_Illustration_07-1.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    opacity: 0;
+    transition: 1.5s;
+    margin-top: 100px;
+    background-size: cover;
+}
+
+.Crypto__txt {
+    width: 70%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    align-items: center;
+}
+
+.Crypto__txt h1 {
+    font-size: 55px;
+    line-height: 1.5rem;
+
+}
+
+.Crypto__title {
+    display: flex;
+    width: 45%;
+    justify-content: space-around;
+}
+
+.Crypto__txt h3 {
+    font-size: 19px;
+    color: white;
+    margin-top: 7px;
+}
+
+.Crypto__buttons {
+    margin-top: 30px;
+    width: 40%;
+    height: 50px;
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Crypto__btn1 {
+    width: 46%;
+    height: 50px;
+    background-color: #4328b7;
+    border: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.Crypto__btn3 {
+    width: 47%;
+    height: 50px;
+    background-color: #4328b7;
+    border: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.Crypto__btn2 {
+    width: 46%;
+    height: 50px;
+    color: #4328b7;
+    border: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.Crypto__btn4 {
+    width: 47%;
+    height: 50px;
+    color: #4328b7;
+    border: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.Crypto__btn1 i,
+.Crypto__btn2 i {
+    transition: 0.1s;
+    opacity: 0;
+    margin-left: 0;
+}
+
+.Crypto__btn3 i,
+.Crypto__btn4 i {
+    opacity: 1;
+    transition: 0.1s;
+    margin-left: 2%;
+}
+
+@media (max-width:1604px) {
+    .Crypto__buttons {
+        width: 50%;
+    }
+}
+
+@media (max-width:1300px) {
+    .Crypto__buttons {
+        width: 70%;
+    }
+}
+
+@media (max-width:904px) {
+    .Crypto__buttons {
+        width: 80%;
+    }
+}
+
+@media (max-width:844px) {
+    .Crypto__title {
+        flex-direction: column;
+        align-items: center;
+        height: 150px;
+    }
+
+    .Crypto__buttons {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 150px;
+    }
+    .Crypto__btn1,.Crypto__btn2,.Crypto__btn3.Crypto__btn4{
+        width: 80%;
+    }
+    .Crypto__btn3,.Crypto__btn4{
+        width: 85%;
+    }
+}
+@media (max-width:360px ) {
+    .Crypto__btn1,.Crypto__btn2{
+        width: 95%;
+        font-size: 15px;
+    }
+    .Crypto__btn3,.Crypto__btn4{
+        width: 100%;
+        font-size: 15px;
+    }
+
+}

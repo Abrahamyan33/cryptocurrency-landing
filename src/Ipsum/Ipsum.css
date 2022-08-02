@@ -1,0 +1,140 @@
+.Ipsum{
+    width: 100%;
+    min-height: 350px;
+    position: relative;
+    background-color: #101535 !important;
+    cursor: auto;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1; 
+}
+.Ipsum img {
+    position: absolute;
+    width: 100%;
+    min-height: 350px;
+}
+.Ipsum__div{
+    min-height: 350px;
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+}
+.Ipsum__lorem{
+    width: 80%;
+    min-height: 350px;
+    background-image: linear-gradient(35deg,rgba(39,37,150,0.95) 0%,rgba(55,37,211,0.95) 100%);
+    box-shadow: 0px 2px 60px 0px rgb(60 60 200 / 40%);
+    transition: 0.5s;
+    text-align: start;
+    padding: 60px;
+    font-family: 'Titillium Web', 'sans-serif';
+    z-index: 2;
+    opacity: 0.8;
+}
+.Ipsum__lorem-activ{
+    width: 100%;
+    min-height: 350px;
+    background-image: linear-gradient(35deg,rgba(39,37,150,0.95) 0%,rgba(55,37,211,0.95) 100%);
+    box-shadow: 0px 2px 60px 0px rgb(60 60 200 / 40%);
+    transition: 0.5s;
+    text-align: start;
+    padding: 60px;
+    font-family: 'Titillium Web', 'sans-serif';
+    z-index: 2;
+    opacity: 1;
+}
+.Ipsum__lorem h5{
+    font-size: 13px;
+    color: white;
+    letter-spacing: 1px;
+}
+.Ipsum__lorem-activ h5{
+    font-size: 13px;
+    color: white;
+    letter-spacing: 1px;
+}
+.Ipsum__lorem h2{
+    color: white;
+    margin-top: 60px;
+    font-size: 40px;
+}
+.Ipsum__lorem-activ h2{
+    color: white;
+    margin-top: 60px;
+    font-size: 40px;
+}
+.Ipsum__line{  
+    background-color: #7bdcb5;
+    min-height: 0.5px;
+    width: 80px;
+    margin-top: 45px;
+}
+
+.Ipsum__btn{
+    width: 285px;
+    min-height: 50px;
+    border: #1b1f50 solid 10px!important;
+    color: #ffffff!important;
+    text-transform: uppercase!important;
+    font-family: 'Titillium Web' , 'sans-serif';
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: #1b1f50;  
+    transition: 0.1s;
+    margin-top: 40px;
+}
+.Ipsum__btn-activ{
+    width: 290px;
+    min-height: 50px;
+    border: #1b1f50 solid 10px!important;
+    color: #ffffff!important;
+    text-transform: uppercase!important;
+    font-family: 'Titillium Web' , 'sans-serif';
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: #1b1f50;  
+    transition: 0.1s;
+    margin-top: 40px;
+}
+.Ipsum__btn i{
+    opacity: 0;
+    transition: 0.1s;
+}
+.Ipsum__btn-activ i{
+    opacity: 1;
+    margin-left: 8px;
+    transition: 0.1s;
+}
+
+
+@media (max-width:1150px){
+ 
+    .Ipsum__lorem-activ h2{
+        font-size: 30px;
+    }
+}
+@media (max-width: 980px){
+    .Ipsum{
+        justify-content: center;
+    }
+    .Ipsum__div{
+        width: 80%;
+    }
+}
+@media (max-width: 750px){
+
+    .Ipsum__lorem-activ h2{
+        font-size: 25px;
+    }
+}
+@media (max-width: 600px){
+    .Ipsum__btn,.Ipsum__btn-activ{
+        width: 100px;
+        font-size: 10px;
+    }
+    .Ipsum__lorem-activ h2{
+        font-size: 20px;
+    }
+}

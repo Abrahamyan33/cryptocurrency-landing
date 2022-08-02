@@ -1,0 +1,335 @@
+.Invest{
+    width: 100%;
+    min-height: 1400px;
+    position: relative;
+    z-index: 1;
+    background-color: #101535 !important;
+    cursor: auto;
+    display: flex;
+    justify-content: center;
+}
+.Invest__div{
+    width: 50%;
+    min-height: 1200px;
+    flex-direction: column;
+    display: flex;
+}
+.Invest__first{
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Invest__txt{
+    width: 65%;
+    min-height: 250px;
+    text-align: start;
+    color: white;
+    font-family: 'Titillium Web', 'sans-serif';
+}
+.Invest__txt h3{
+    font-size: 35px;
+    letter-spacing: 3px;
+}
+.Invest__line{  
+    background-color: #7bdcb5;
+    min-height: 0.5px;
+    width: 80px;
+    margin-top: 45px;
+}
+.Invest__txt span{
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+.Invest__btn{
+    width: 35%;
+    min-height: 50px;
+    border: #1b1f50 solid 10px!important;
+    color: #ffffff!important;
+    text-transform: uppercase!important;
+    font-family: 'Titillium Web' , 'sans-serif';
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: #1b1f50;  
+    transition: 0.1s;
+    margin-top: 25px;
+}
+.Invest__btn-activ{
+    width: 35.5%;
+    min-height: 50px;
+    border: #1b1f50 solid 10px!important;
+    color: #ffffff!important;
+    text-transform: uppercase!important;
+    font-family: 'Titillium Web' , 'sans-serif';
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: #1b1f50;  
+    transition: 0.1s;
+    margin-top: 25px;
+}
+.Invest__btn i{
+    opacity: 0;
+    transition: 0.1s;
+}
+.Invest__btn-activ i{
+    opacity: 1;
+    margin-left: 8px;
+    transition: 0.1s;
+}
+.Invest__global-activ{
+    width: 30%;
+    min-height: 300px;
+    background-color: rgba(60,60,200,0.2);
+    border:  #4328B7 solid 2px;
+    padding:  30px 5px;
+    display: flex;
+    justify-content: space-around;
+    transform: rotateY(90deg);
+    transition: 1s;
+    opacity: 0;
+}
+.Invest__global{
+    width: 30%;
+    min-height: 300px;
+    background-color: rgba(60,60,200,0.2);
+    border:  #4328B7 solid 2px;
+    padding:  30px 5px;
+    display: flex;
+    justify-content: space-around;
+    transform: rotateY(0deg);
+    transition: 1s;
+    opacity: 1;
+}
+.Invest__global i{
+    font-size: 30px;
+    color: #4328B7;
+}
+.global__txt{
+    width: 75%;
+    min-height: 300px;
+    flex-direction: column;
+    text-align: start;
+}
+.global__txt h3{
+    color: white;
+    font-size: 14.5px;
+    letter-spacing: 0.5px;
+}
+.global__txt span{
+    font-size: 14px;
+}
+.Invest__second{
+    width: 100%;
+    min-height: 350px;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+}
+.Invest__block{
+    width: 30%;
+    min-height: 300px;
+    background-color: rgba(60,60,200,0.2);
+    border:  #4328B7 solid 2px;
+    padding:  30px 5px;
+    display: flex;
+    justify-content: space-around;
+    transform: rotateY(0deg);
+    transition: 1s;
+    opacity: 1;
+}
+.Invest__block-activ{
+    width: 30%;
+    min-height: 300px;
+    background-color: rgba(60,60,200,0.2);
+    border:  #4328B7 solid 2px;
+    padding:  30px 5px;
+    display: flex;
+    justify-content: space-around;
+    transform: rotateY(90deg);
+    transition: 1s;
+    opacity: 0;
+}
+.Invest__block i{
+    font-size: 30px;
+    color: #4328B7;
+}
+.block__txt1{
+    width: 75%;
+    min-height: 300px;
+    flex-direction: column;
+    text-align: start;
+}
+.block__txt1 h3{
+    color: white;
+    font-size: 14.5px;
+    letter-spacing: 0.5px;
+}
+.block__txt1 span{
+    font-size: 14px;
+}
+.Invest__third{
+    width: 100%;
+    min-height: 450px;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.Invest__crypto{
+    width: 30%;
+    min-height: 300px;
+    background-color: rgba(60,60,200,0.2);
+    border:  #4328B7 solid 2px;
+    padding:  30px 5px;
+    display: flex;
+    justify-content: space-around;
+    transform: rotateY(0deg);
+    transition: 1s;
+    opacity: 1;
+}
+.Invest__crypto-activ{
+    width: 30%;
+    min-height: 300px;
+    background-color: rgba(60,60,200,0.2);
+    border:  #4328B7 solid 2px;
+    padding:  30px 5px;
+    display: flex;
+    justify-content: space-around;
+    transform: rotateY(90deg);
+    transition: 1s;
+    opacity: 0;
+}
+.Invest__crypto i{
+    font-size: 30px;
+    color: #4328B7;
+}
+.Invest__txt1{
+    width: 75%;
+    min-height: 300px;
+    flex-direction: column;
+    text-align: start;
+}
+.Invest__txt1 h3{
+    color: white;
+    font-size: 14.5px;
+    letter-spacing: 0.5px;
+}
+.Invest__txt1 span{
+    font-size: 14px;
+}
+.Invest__img{
+    width: 65%;
+    min-height: 400px;
+    position: relative;
+    display: flex;
+}
+.Invest__png{
+    width: 100%;
+    min-height: 550px;
+    position: absolute;
+    margin-top: 100px;
+    opacity: 0;
+    transition: 1s;
+}
+.Invest__png-activ{
+    width: 100%;
+    min-height: 550px;
+    position: absolute;
+    /* margin-top: 100px; */
+    opacity: 1;
+    transition: 1s;
+}
+@media (max-width:1770px){
+    .Invest__btn {
+        width: 40%;
+    }
+    .Invest__btn-activ{
+        width: 40.5%;
+    }
+    .Invest__block{
+        min-height: 350px;
+    }
+    .Invest__crypto{
+        min-height: 350px;
+    }
+    .Invest__global{
+        min-height: 350px;
+    }
+    .Invest{
+        min-height: 1500px;
+    }
+    .Invest__first{
+        min-height: 500px;
+    }
+    .Invest__second{
+        min-height: 450px;
+    }
+}
+@media (max-width:1500px){
+    .Invest__btn {
+        width: 50%;
+    }
+    .Invest__div{
+        width: 80%;
+    }
+}
+@media (max-width:980px){
+    .Invest{
+        min-height: 2300px;
+    }
+    .Invest__first{
+        flex-direction: column;
+        min-height: 800px;
+        align-content:space-around ;
+    }
+    .Invest__second{
+        min-height: 800px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Invest__txt{
+        width: 100%;
+        min-height: 350px;
+    }
+    .Invest__global{
+        min-height: 250px;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .Invest__block{
+        width: 100%;
+        min-height: 250px;
+        margin-top: 20px;
+    }
+    .Invest__third{
+        flex-direction: column;
+        min-height: 800px;
+        align-items: center;
+    }
+    .Invest__crypto{
+        width: 100%;
+        min-height: 250px;
+        margin-top: 20px;
+    }
+    .Invest__png-activ{
+        width: 100%;
+    }
+    .Invest__img{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+@media (max-width:480px){
+    .Invest{
+        min-height: 3000px;
+    }
+    .Invest__btn{
+        width: 65%;
+    }
+    .Invest__btn-activ{
+        width: 65%;
+    }
+}
